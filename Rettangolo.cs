@@ -22,6 +22,10 @@ namespace Es_Rettangolo
         public float Perimetro() {
             return (L1 + L2) * 2;
         }
+        public override string ToString()
+        {
+            return L1 + " " + L2;
+        }
 
     }
 }

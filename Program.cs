@@ -13,6 +13,7 @@ namespace Es_Rettangolo
             float l1=float.Parse(Console.ReadLine());
             float l2=float.Parse(Console.ReadLine());
             Rettangolo r=new Rettangolo(l1,l2);
+            Console.WriteLine("I lati del rettangolo sono {0}",r);
             Console.WriteLine("Area e perimetro rettangolo");
             Console.WriteLine(r.Area());
             Console.WriteLine(r.Perimetro());
@@ -21,6 +22,7 @@ namespace Es_Rettangolo
             Console.WriteLine("Area e perimetro quadrato");
             Console.WriteLine(q.Area());
             Console.WriteLine(q.Perimetro());
+            
             Console.ReadLine();
         }
     }
